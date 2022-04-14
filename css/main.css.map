@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACH,KAAK,EAAE,IAAI;CACZ;;AAED,AAAA,EAAE,CAAC;EACD,SAAS,EAAE,KAAK;CACjB;;AAED,AAAA,EAAE,CAAC;EACD,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,GAAG;EAChB,WAAW,EAAE,2DAA2D;CACzE",
+    "sources": [
+        "../saas/main.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
