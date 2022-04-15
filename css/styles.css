@@ -662,10 +662,6 @@ p {
   background-color: var(--section-background-color);
 }
 
-.footer-logo-link {
-  display: block;
-}
-
 .footer-addresses {
   margin-right: 70px;
 }
