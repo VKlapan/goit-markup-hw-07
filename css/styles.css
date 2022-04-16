@@ -356,10 +356,10 @@ p {
   background-color: #f5f4fa;
 }
 
-.ourteam-list {
+.ourteam__list {
   display: flex;
 }
-.ourteam-item {
+.ourteam__item {
   margin-right: 30px;
   background-color: #ffffff;
 
@@ -368,21 +368,21 @@ p {
   border-radius: 0px 0px 4px 4px;
 }
 
-.ourteam-item:last-child {
+.ourteam__item:last-child {
   margin-right: 0px;
 }
 
-.ourteam-item-box {
+.ourteam__box {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.ourteam-item-title,
-.ourteam-item-text {
+.ourteam__title,
+.ourteam__text {
   display: block;
 }
 
-.ourteam-item-title {
+.ourteam__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -396,7 +396,7 @@ p {
   color: #212121;
 }
 
-.ourteam-item-text {
+.ourteam__text {
   padding-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
@@ -407,59 +407,6 @@ p {
 
   color: var(--main-color);
 }
-
-.ourteam-item-socials {
-  margin-bottom: 30px;
-}
-
-.ourteam-item-socials-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.ourteam-item-socials-item {
-  margin-right: 10px;
-}
-
-.ourteam-item-socials-item:last-child {
-  margin-right: 0;
-}
-
-.ourteam-item-socials-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: #ffffff;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.ourteam-item-socials-logo {
-  width: 20px;
-  height: 20px;
-  fill: #afb1b8;
-
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.ourteam-item-socials-link:hover,
-.ourteam-item-socials-link:focus {
-  background-color: #2196f3;
-}
-
-.ourteam-item-socials-link:hover .ourteam-item-socials-logo,
-.ourteam-item-socials-link:focus .ourteam-item-socials-logo {
-  fill: #ffffff;
-}
-
-/*.ourteam-item-socials-logo:hover {
-  fill: #ffffff;
-}
-*/
 
 /*Our clients*/
 
