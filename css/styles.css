@@ -69,7 +69,7 @@ p {
   background-color: var(--nav-hover-color);
 }
 
-.sub-title-invisible {
+.sub-title--invisible {
   display: none;
 }
 
@@ -239,16 +239,16 @@ p {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.whywe-list {
+.whywe__list {
   display: flex;
 }
 
-.whywe-item {
+.whywe__item {
   width: 270px;
   margin-right: 30px;
 }
 
-.whywe-item::before {
+.whywe__item::before {
   display: block;
   content: "";
   width: 270px;
@@ -263,27 +263,27 @@ p {
   background-color: #f5f4fa;
 }
 
-.details::before {
+.whywe__item--details::before {
   background-image: url(../images/antenna.svg);
 }
 
-.punctuality::before {
+.whywe__item--punctuality::before {
   background-image: url(../images/clock.svg);
 }
 
-.planning::before {
+.whywe__item--planning::before {
   background-image: url(../images/diagram.svg);
 }
 
-.modern::before {
+.whywe__item--modern::before {
   background-image: url(../images/astronaut.svg);
 }
 
-.whywe-item:last-child {
+.whywe__item:last-child {
   margin-right: 0;
 }
 
-.whywe-item-title {
+.whywe__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -295,7 +295,7 @@ p {
   color: var(--main-black-color);
 }
 
-.whywe-item-text {
+.whywe__text {
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
