@@ -13,10 +13,12 @@
 }
 
 .link--top-logo {
+  @extend %link;
   margin-right: 93px;
 }
 
 .link--bottom-logo {
+  @extend %link;
   display: block;
   margin-bottom: 20px;
 }
@@ -26,16 +28,17 @@
   font-weight: 700;
   font-size: 26px;
   color: #2196f3;
-}
 
-.logo__text--white {
-  color: #ffffff;
-}
-.logo__text--black {
-  color: #000000;
+  &--white {
+    color: #ffffff;
+  }
+  &--black {
+    color: #000000;
+  }
 }
 
 .header__list {
+  @extend %list;
   display: flex;
   padding: 0px;
   margin-left: auto;
@@ -44,10 +47,10 @@
 .header__item {
   position: relative;
   margin-right: 50px;
-}
 
-.header__item:last-child {
-  margin-right: 0px;
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 
 .header__logo {
@@ -56,9 +59,15 @@
   margin-right: 10px;
   fill: var(--main-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .header__link:hover &,
+  .header__link:focus & {
+    fill: var(--nav-hover-color);
+  }
 }
 
 .header__link {
+  @extend %link;
   display: flex;
   align-items: center;
 
@@ -69,19 +78,14 @@
 
   color: var(--main-black-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.header__link--main-color {
-  color: var(--main-color);
-}
+  &--main-color {
+    color: var(--main-color);
+  }
 
-.header__link:hover,
-.header__link:focus,
-.header__link:active {
-  color: var(--nav-hover-color);
-}
-
-.header__link:hover .header__logo,
-.header__link:focus .header__logo {
-  fill: var(--nav-hover-color);
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--nav-hover-color);
+  }
 }
