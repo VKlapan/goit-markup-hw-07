@@ -75,4 +75,138 @@ p {
 .sub-title--invisible {
   display: none;
 }
+
+/* header */
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ececec;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.link--top-logo {
+  margin-right: 93px;
+}
+
+.link--bottom-logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.logo__text {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  color: #2196f3;
+}
+
+.logo__text--white {
+  color: #ffffff;
+}
+
+.logo__text--black {
+  color: #000000;
+}
+
+.header__list {
+  display: flex;
+  padding: 0px;
+  margin-left: auto;
+}
+
+.header__item {
+  position: relative;
+  margin-right: 50px;
+}
+
+.header__item:last-child {
+  margin-right: 0px;
+}
+
+.header__logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  fill: var(--main-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header__link {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-black-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header__link--main-color {
+  color: var(--main-color);
+}
+
+.header__link:hover,
+.header__link:focus,
+.header__link:active {
+  color: var(--nav-hover-color);
+}
+
+.header__link:hover .header__logo,
+.header__link:focus .header__logo {
+  fill: var(--nav-hover-color);
+}
+
+/* hero */
+.hero {
+  padding: 200px 0px;
+  max-width: 1600px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero_bg_Img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-container {
+  text-align: center;
+}
+
+.hero__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero__btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding: 10px 32px;
+  border: 0px;
+  cursor: pointer;
+  background-color: #2196f3;
+  color: #ffffff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero__btn:hover {
+  background-color: #188ce8;
+}
 /*# sourceMappingURL=main.css.map */
